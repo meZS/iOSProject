@@ -15,6 +15,12 @@
 		93B4F79E1F037EE200B83AA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93B4F79C1F037EE200B83AA3 /* LaunchScreen.storyboard */; };
 		93B4F7A91F037EE600B83AA3 /* IosProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B4F7A81F037EE600B83AA3 /* IosProjectTests.m */; };
 		93B4F7B41F037EE600B83AA3 /* IosProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B4F7B31F037EE600B83AA3 /* IosProjectUITests.m */; };
+		93B4F7C61F037F6200B83AA3 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B4F7C51F037F6200B83AA3 /* BaseModel.m */; };
+		93B4F7CC1F0387B800B83AA3 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B4F7CB1F0387B800B83AA3 /* UserModel.m */; };
+		93B4F7D11F03ABD700B83AA3 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B4F7D01F03ABD700B83AA3 /* BaseViewController.m */; };
+		93B4F7D41F03ACBE00B83AA3 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B4F7D31F03ACBE00B83AA3 /* MainViewController.m */; };
+		93B4F7D71F03ACC900B83AA3 /* PersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B4F7D61F03ACC900B83AA3 /* PersonViewController.m */; };
+		93B4F7DA1F03ACF800B83AA3 /* ScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B4F7D91F03ACF800B83AA3 /* ScanViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,18 @@
 		93B4F7AF1F037EE600B83AA3 /* IosProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IosProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93B4F7B31F037EE600B83AA3 /* IosProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IosProjectUITests.m; sourceTree = "<group>"; };
 		93B4F7B51F037EE700B83AA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93B4F7C41F037F6200B83AA3 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		93B4F7C51F037F6200B83AA3 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		93B4F7CA1F0387B800B83AA3 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		93B4F7CB1F0387B800B83AA3 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		93B4F7CF1F03ABD700B83AA3 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		93B4F7D01F03ABD700B83AA3 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		93B4F7D21F03ACBE00B83AA3 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		93B4F7D31F03ACBE00B83AA3 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		93B4F7D51F03ACC900B83AA3 /* PersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonViewController.h; sourceTree = "<group>"; };
+		93B4F7D61F03ACC900B83AA3 /* PersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonViewController.m; sourceTree = "<group>"; };
+		93B4F7D81F03ACF800B83AA3 /* ScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanViewController.h; sourceTree = "<group>"; };
+		93B4F7D91F03ACF800B83AA3 /* ScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +119,10 @@
 		93B4F78D1F037EE000B83AA3 /* IosProject */ = {
 			isa = PBXGroup;
 			children = (
+				93B4F7CE1F03AB9B00B83AA3 /* Controller */,
+				93B4F7C11F037F2200B83AA3 /* BaseModel */,
 				93B4F7911F037EE100B83AA3 /* AppDelegate.h */,
 				93B4F7921F037EE100B83AA3 /* AppDelegate.m */,
-				93B4F7941F037EE100B83AA3 /* ViewController.h */,
-				93B4F7951F037EE100B83AA3 /* ViewController.m */,
 				93B4F7971F037EE100B83AA3 /* Main.storyboard */,
 				93B4F79A1F037EE200B83AA3 /* Assets.xcassets */,
 				93B4F79C1F037EE200B83AA3 /* LaunchScreen.storyboard */,
@@ -138,6 +156,34 @@
 				93B4F7B51F037EE700B83AA3 /* Info.plist */,
 			);
 			path = IosProjectUITests;
+			sourceTree = "<group>";
+		};
+		93B4F7C11F037F2200B83AA3 /* BaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				93B4F7C41F037F6200B83AA3 /* BaseModel.h */,
+				93B4F7C51F037F6200B83AA3 /* BaseModel.m */,
+				93B4F7CA1F0387B800B83AA3 /* UserModel.h */,
+				93B4F7CB1F0387B800B83AA3 /* UserModel.m */,
+			);
+			path = BaseModel;
+			sourceTree = "<group>";
+		};
+		93B4F7CE1F03AB9B00B83AA3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				93B4F7941F037EE100B83AA3 /* ViewController.h */,
+				93B4F7951F037EE100B83AA3 /* ViewController.m */,
+				93B4F7CF1F03ABD700B83AA3 /* BaseViewController.h */,
+				93B4F7D01F03ABD700B83AA3 /* BaseViewController.m */,
+				93B4F7D21F03ACBE00B83AA3 /* MainViewController.h */,
+				93B4F7D31F03ACBE00B83AA3 /* MainViewController.m */,
+				93B4F7D51F03ACC900B83AA3 /* PersonViewController.h */,
+				93B4F7D61F03ACC900B83AA3 /* PersonViewController.m */,
+				93B4F7D81F03ACF800B83AA3 /* ScanViewController.h */,
+				93B4F7D91F03ACF800B83AA3 /* ScanViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,8 +323,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				93B4F7961F037EE100B83AA3 /* ViewController.m in Sources */,
+				93B4F7DA1F03ACF800B83AA3 /* ScanViewController.m in Sources */,
+				93B4F7D11F03ABD700B83AA3 /* BaseViewController.m in Sources */,
+				93B4F7CC1F0387B800B83AA3 /* UserModel.m in Sources */,
 				93B4F7931F037EE100B83AA3 /* AppDelegate.m in Sources */,
+				93B4F7D41F03ACBE00B83AA3 /* MainViewController.m in Sources */,
+				93B4F7C61F037F6200B83AA3 /* BaseModel.m in Sources */,
 				93B4F7901F037EE100B83AA3 /* main.m in Sources */,
+				93B4F7D71F03ACC900B83AA3 /* PersonViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
